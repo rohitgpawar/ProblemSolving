@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BT_Print\Print_Level _Order.cs" />
+    <Compile Include="LongestValidParenthesis\LongestValidParenthesis.cs" />
     <Compile Include="Paranthesis_Check\Paranthesis_Check.cs" />
     <Compile Include="ProblemSolving.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BT_Print\Data\WhatsApp Image 2016-11-06 at 1.57.20 PM.jpeg" />
+    <Content Include="LongestValidParenthesis\Data\WhatsApp Image 2016-11-08 at 2.25.40 PM.jpeg" />
     <Content Include="Paranthesis_Check\Data\TestBrackets.java" />
     <Content Include="Paranthesis_Check\Data\WhatsApp Image 2016-11-07 at 12.51.04 PM.jpeg" />
   </ItemGroup>
