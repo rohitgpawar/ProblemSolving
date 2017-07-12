@@ -2,6 +2,10 @@
 
 
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace ProblemSolving
 {
@@ -9,6 +13,29 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
+            CountCityAndRoad.CountCityAndRoadMain();
+            PalindromeTransformSolution.PalindromeTransformSolutionMain();
+            CountLargestGroup.Start();
+            CountAnagram.CountAnagramMain();
+            StringBuilder strbld = new StringBuilder();
+            strbld.Append('c');
+            int i = 'C';
+            CountSubstingInGraph.CountSubstingInGraphMain();
+        AllPathInGraph.AllPathInGraphMain();
+            PalindromeTransform.PalindromeTransformMain();
+            PatternMatch.PatternMatchMain();
+            MaxPalindromeInTable.MaxPalindromeInTableMain();
+            SortedList<int, int> sortedList = new SortedList<int, int>();
+            sortedList.Capacity = 2;
+            sortedList.Add(1, 1);
+            sortedList.Add(2, 2);
+            sortedList.Add(3, 3);
+            List<List<int>> graphEdges = new List<List<int>>();
+            graphEdges[0][0] = 0;
+            Hashtable openWith = new Hashtable();
+            openWith.Add("txt", "notepad.exe");
+            openWith["txt"] = "New";
+
             //Paranthesis_Check.Start(args);
             //Print_Level_Order.Start(args);
             //LongestValidParenthesis.Start();
@@ -44,6 +71,10 @@ namespace ProblemSolving
             //IslandProblem.CountIslands(new int[4, 5] { { 1, 1, 0, 0, 0 }, { 1, 1, 0, 0, 0 }, { 0, 0, 1, 0, 0 }, { 0, 0, 0, 1, 1 }, });
             //MinSubArrayWithValue.FindShortestSubArrayWithValue(new int[] { 1, 11, 100, 1, 0, 200, 3, 2, 1, 250 },280);
             //ReverseVowelsInString.ReverseVowels("leetcode");
+            HashSet<int> oddNumbers = new HashSet<int>();
+            oddNumbers.Add(2);
+            oddNumbers.Add(1);
+            oddNumbers.Add(2);
             int[][] array = new int[7][];
             array[0] = new int[] { 0,0,0,0,0,0,1,1,1,0 };
             array[1] = new int[] { 0,0,0,0,0,0,0,0,0,0 };

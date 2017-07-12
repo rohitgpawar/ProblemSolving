@@ -60,13 +60,22 @@
     <Compile Include="Arrays and Strings\ZeroMatrix.cs" />
     <Compile Include="BT_Print\Print_Level _Order.cs" />
     <Compile Include="DAA\ArrayValueAndIndexMatch.cs" />
+    <Compile Include="DAA\PalindromeTransformSolution.cs" />
+    <Compile Include="DAA\CountLargestGroup.cs" />
     <Compile Include="DAA\DistinctCount.cs" />
     <Compile Include="DAA\FindLargestNegativeNumber.cs" />
     <Compile Include="DAA\FindMin.cs" />
     <Compile Include="DAA\FindValuesAsSumInArray.cs" />
     <Compile Include="DAA\IntToBinary.cs" />
     <Compile Include="DAA\LargestInConcaveArray.cs" />
+    <Compile Include="DAA\PalindromeTransform.cs" />
+    <Compile Include="DAA\PatternMatch.cs" />
     <Compile Include="DAA\ReverseArray.cs" />
+    <Compile Include="Arrays and Strings\CountAnagram.cs" />
+    <Compile Include="DP\CoinChangeProblem.cs" />
+    <Compile Include="DP\MaxPalindromeInTable.cs" />
+    <Compile Include="Graphs\CountCityAndRoad.cs" />
+    <Compile Include="Graphs\CountSubStringInGraph.cs" />
     <Compile Include="Graphs\Tree.cs" />
     <Compile Include="Graphs\MinimalBinaryTree.cs" />
     <Compile Include="LinkedList\KthToLast.cs" />
@@ -90,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BT_Print\Data\WhatsApp Image 2016-11-06 at 1.57.20 PM.jpeg" />
+    <Compile Include="Graphs\AllPathsInGraph.cs" />
     <Content Include="LongestValidParenthesis\Data\WhatsApp Image 2016-11-08 at 2.25.40 PM.jpeg" />
     <Content Include="Paranthesis_Check\Data\TestBrackets.java" />
     <Content Include="Paranthesis_Check\Data\WhatsApp Image 2016-11-07 at 12.51.04 PM.jpeg" />
