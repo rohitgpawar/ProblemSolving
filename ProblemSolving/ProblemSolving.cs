@@ -13,7 +13,9 @@ namespace ProblemSolving
     {
         static void Main(string[] args)
         {
-            CountCityAndRoad.CountCityAndRoadMain();
+            //CountCityAndRoad.CountCityAndRoadMain();
+            TwoRobots.TwoRobotsMain();
+            MakeEqual.MakeEqualMain();
             PalindromeTransformSolution.PalindromeTransformSolutionMain();
             CountLargestGroup.Start();
             CountAnagram.CountAnagramMain();

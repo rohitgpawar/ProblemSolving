@@ -73,7 +73,9 @@
     <Compile Include="DAA\ReverseArray.cs" />
     <Compile Include="Arrays and Strings\CountAnagram.cs" />
     <Compile Include="DP\CoinChangeProblem.cs" />
+    <Compile Include="DP\MakeEqual.cs" />
     <Compile Include="DP\MaxPalindromeInTable.cs" />
+    <Compile Include="DP\TwoRobots.cs" />
     <Compile Include="Graphs\CountCityAndRoad.cs" />
     <Compile Include="Graphs\CountSubStringInGraph.cs" />
     <Compile Include="Graphs\Tree.cs" />
