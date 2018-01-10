@@ -17,7 +17,7 @@ namespace ProblemSolving
             int lengthDifference = firstString.Length - secondString.Length;
             bool isInsertOrDelete = false,isReplace = false,isDelete=false;
             int j = 0;
-            if (lengthDifference > 1 || lengthDifference < -1)
+            if (lengthDifference > 1 || lengthDifference < -1)//First String is  larger
                 return false;
             else if (lengthDifference != -1)
                 isInsertOrDelete = true;

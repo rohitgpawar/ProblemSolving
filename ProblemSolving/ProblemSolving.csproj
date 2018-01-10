@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayRotatedMin\ArrayRotatedMin.cs" />
+    <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />
     <Compile Include="Arrays and Strings\MinSubArrayWithValue.cs" />
     <Compile Include="Arrays and Strings\ReverseVowelsInString.cs" />
+    <Compile Include="Arrays and Strings\SumDigitsToASingleDigit.cs" />
     <Compile Include="Arrays and Strings\ThreeWayPartitionInArray.cs" />
     <Compile Include="Arrays and Strings\FindCommonIn3List.cs" />
     <Compile Include="Arrays and Strings\FindNoOfOccurance.cs" />
@@ -76,10 +78,12 @@
     <Compile Include="DP\MakeEqual.cs" />
     <Compile Include="DP\MaxPalindromeInTable.cs" />
     <Compile Include="DP\TwoRobots.cs" />
+    <Compile Include="FizzBuzz\FizzBuzz.cs" />
     <Compile Include="Graphs\CountCityAndRoad.cs" />
     <Compile Include="Graphs\CountSubStringInGraph.cs" />
     <Compile Include="Graphs\Tree.cs" />
     <Compile Include="Graphs\MinimalBinaryTree.cs" />
+    <Compile Include="Interview\AmazonInterview.cs" />
     <Compile Include="LinkedList\KthToLast.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Pratition.cs" />
@@ -103,11 +107,15 @@
     <Content Include="BT_Print\Data\WhatsApp Image 2016-11-06 at 1.57.20 PM.jpeg" />
     <Compile Include="Graphs\AllPathsInGraph.cs" />
     <Content Include="LongestValidParenthesis\Data\WhatsApp Image 2016-11-08 at 2.25.40 PM.jpeg" />
+    <Content Include="Notes\PatternMatchingAlgorithms.txt" />
+    <Content Include="Notes\ProblemSolvingSteps.txt" />
     <Content Include="Paranthesis_Check\Data\TestBrackets.java" />
     <Content Include="Paranthesis_Check\Data\WhatsApp Image 2016-11-07 at 12.51.04 PM.jpeg" />
     <Content Include="TopologicalSort\Data\TopologicalSort_DAG.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Interview\Amazon\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

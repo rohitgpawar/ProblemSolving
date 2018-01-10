@@ -11,8 +11,35 @@ namespace ProblemSolving
 {
     class ProblemSolving
     {
+
+
+        //static 
         static void Main(string[] args)
         {
+            lengthEachScene(new List<char>() { 'z','z','c','b','z','c','h','f','i','h','i' });
+
+            lengthEachScene(new List<char>() { 'a','b','c','d','a','e','f','g','h','i','j','e'});
+            lengthEachScene(new List<char>() { 'a', 'b', 'a', 'b', 'c','b','a','c','a','d','e','f','e','g','d','e','h','i','j','h','k','l','i','j' });
+            subStringsKDist("abcd", 3);
+            string hh = "Hello";
+            //IEnumerable<int> ll = hh.ToArray<int>();
+            SumDigitsToASingleDigit.SumDigitsToASingleDigitMain();
+            FizzBuzz.FizzBuzzMain();
+            FindNearestSmallerNumberToRight_Array.FindNearestSmallerNumberToRight_ArrayMain();
+            char[] word = new char[10];
+            word[0] = 'l';
+            word[1] = 'o';
+            word[2] = 'v';
+            word[3] = 'e';
+            word[4] = '\0';
+            word.ToString();
+            HashSet<string> w = new HashSet<string>();
+            w.Add("love");
+            string word1 = new string(word);
+            word1 = word1 + 'f';
+            w.Contains(word1);
+
+            int[][] _memo = new int[1000000][];
             //CountCityAndRoad.CountCityAndRoadMain();
             TwoRobots.TwoRobotsMain();
             MakeEqual.MakeEqualMain();

@@ -85,6 +85,7 @@ namespace ProblemSolving
             stack.Push(3);
             int peek = stack.Peek();
             stack.Pop();
+            stack.Clear();
 
             // Queue *************************************
             Queue<int> queue = new Queue<int>();
@@ -92,8 +93,14 @@ namespace ProblemSolving
             queue.Enqueue(3);
             queue.Dequeue();
             //queue.Count;
-            //Hashtable**************************************** 
 
+            // LinkedList **********************************
+            LinkedList ll = new LinkedList();
+            ll.AddNode(new LinkedListNode(1));
+            ll.DeleteNode(new LinkedListNode(1));
+            LinkedListNode llHead =ll.Head;
+
+            //Hashtable**************************************** 
             Hashtable openWith = new Hashtable();
             // Add some elements to the hash table. Keys cannot be duplicate.
             openWith.Add("txt", "notepad.exe");
@@ -105,10 +112,16 @@ namespace ProblemSolving
                 //de.Value
             }
             HashSet<int> value1= (HashSet < int > )openWith["txt"];
+            int i =value1.Count;
+            value1.Contains(1);
             // When you use foreach to enumerate hash table elements, the elements are retrieved as KeyValuePair objects.
             foreach (DictionaryEntry de in openWith)
             {
                 Console.WriteLine("Key = {0}, Value = {1}", de.Key, de.Value);
+            }
+
+            foreach (int e in value1)
+            {
             }
 
             // To get the values alone, use the Values property.
@@ -177,17 +190,22 @@ namespace ProblemSolving
             //int i =evenNumbers.Count;
             //numbers.IntersectWith()
             //numbers.Remove(1);
-            foreach (int i in evenNumbers)
-            {
+            //foreach (int i in evenNumbers)
+            //{
 
-            }
+            //}
 
             SortedList<int, int> sortedList = new SortedList<int, int>();
             sortedList.Capacity = 2;
             sortedList.Add(1, 1);
             sortedList.Add(2, 2);
             sortedList.Add(3, 3);
-
+            string tmp = "";
+            char[] word = new char[tmp.Length];
+            word[0] = 'c';
+            word.ToString();
+            tmp.ToCharArray();
         }
+        
     }
 }

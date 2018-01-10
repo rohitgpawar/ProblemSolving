@@ -1,0 +1,30 @@
+﻿
+7 STEPS
+
+1) LISTEN / READ THE PROBLEM CAREFULLY.
+	Details given in the problem might help you to solve the problem optimally.
+
+2) EXAMPLES
+	Pick a long example which avoids special cases. Long examples have more chances of covering all the scenarios.
+
+3) BRUTE FORCE ALGORITHM.
+	You dont need to code the algorithm but you should atleast speak out the approach and start optimizing from this Brute Force. 
+	State it Time complexity and move on for optimization.
+	Its better to start with something slow than not anything.
+
+4) OPTIMIZATION
+	Get an optimized algorithm ready.
+
+5) WALK THROUGH YOUR ALGORITHM
+	Take a step back. Make sure you know exactly what you are doing and then start coding. 
+	What variables, datastructure, loops, when and how they change, etc.
+
+6) CODE
+	Coding style matters (Braces, namingConvension, camelCase). Have a style and stick to it.
+	Use descriptive variable names and then use its abrivation.
+	Modularize your code upfront. Conceptual code move to different functions.
+
+7) TEST
+	Dont take big eg from step 2. Take a small example and actually run through code not algorithm make actual calculations and check code.
+	Test your edge cases. Think as u test not looking at the output.
+	When you find a bug dont panic, if you make wrong fix to solve input you are making it worse. Think again and then make changes.xx

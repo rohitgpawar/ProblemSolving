@@ -3,6 +3,33 @@ using System;
 
 namespace ProblemSolving.OOPS
 {
+    interface ITest
+    {
+        int AddCount { get; set; }
+        void Add();
+    }
+
+    public class Test : ITest
+    {
+        int ITest.AddCount
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        void ITest.Add()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class Concepts
     {
         //OOPS.A a = new OOPS.A();

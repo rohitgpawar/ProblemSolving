@@ -1,0 +1,53 @@
+﻿---------------------------------------------------------------------------------------------------------------------------------------------------
+Searching for Patterns | Set 1 (Naive Pattern Searching)
+
+Steps:
+1) Search Pattern[j] with string[i] increment i++ and j++ when charachters match.
+	if characters dont match reset j to 0 and start comparing again.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Searching for Patterns | Set 2 (KMP Algorithm)
+
+Time complexity of KMP algorithm is O(n) in worst case.
+
+KMP (Knuth Morris Pratt) Pattern Searching
+
+Steps
+Preprocessing.
+1) Find the LPS array. "Longest proper Prefix which is also Sufix" array from the pattern.
+2) Iterate through String 
+	a) pattern[j] matches with string [i] increment both j++, i++.
+	b) on mistmatch use LPS to find the position of j which was last matched. (Don't start from pattern[0] using LPS we get right position from where previous j items are already matched.)
+
+http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Searching for Patterns | Set 3 (Rabin-Karp Algorithm)
+
+Time complexity of Rabin-karp algorihtm is O(n)
+
+Steps
+Preprocessing
+1) Build a Hash function to compute hash of a given string considering all its characters. This hash function should be able to compute hash
+	when we move to next window by using previous hash value remove the starting character and add the trailing character.
+2) Match the hash function of pattern and window in text if they match then match all the characters else compute the hash of next window.
+
+http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Anagram Substring Search (Or Search for all permutations)
+
+Steps:
+1) Count the number of occurance of characters in the pattern string in array of size 256 as max ASCII values will be 256.
+2) Count number of occurance of characters in first window of text.  (window size equal to pattern size)
+3) Compare PatternOccurance array and TextWindowOccurance array in a loop from pattern size to text size.
+	If both are same we have a match.
+	If array contents (any one of 256) is not same then 
+		Add last character ASCII Count to TextWindowOccurance And remove first character ASCII count.
+		Goto step 3.
+4) compare the last window match separately. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
