@@ -1,26 +1,26 @@
-﻿
-
-
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace ProblemSolving
 {
     class ProblemSolving
     {
-
-
         //static 
         static void Main(string[] args)
         {
-            lengthEachScene(new List<char>() { 'z','z','c','b','z','c','h','f','i','h','i' });
 
-            lengthEachScene(new List<char>() { 'a','b','c','d','a','e','f','g','h','i','j','e'});
-            lengthEachScene(new List<char>() { 'a', 'b', 'a', 'b', 'c','b','a','c','a','d','e','f','e','g','d','e','h','i','j','h','k','l','i','j' });
-            subStringsKDist("abcd", 3);
+            GetAllCombinationOfArray.GetAllCombinationOfArrayMain();
+            BST_GetArrayFromTree.BST_GetArrayFromTreeMain();
+            FirstCommonAncestor.FirstCommonAncestorMain();
+            BuildOrder.BuildOrderMain();
+            CheckBinarySearchTree.CheckBinarySearchTreeMain();
+            CheckBalancedTree.CheckBalancedTreeMain();
+            ListOfDepthsInTree.ListOfDepthsInTreeMain();
+            RouteBetweenTwoNodes.RouteBetweenTwoNodesMain();
+            SubsetSumInArray.SubsetSumInArrayMain();
+            MaxSubArrayWithGivenSum.MaxSubArrayWithGivenSumMain();
             string hh = "Hello";
             //IEnumerable<int> ll = hh.ToArray<int>();
             SumDigitsToASingleDigit.SumDigitsToASingleDigitMain();
@@ -50,7 +50,7 @@ namespace ProblemSolving
             strbld.Append('c');
             int i = 'C';
             CountSubstingInGraph.CountSubstingInGraphMain();
-        AllPathInGraph.AllPathInGraphMain();
+            AllPathInGraph.AllPathInGraphMain();
             PalindromeTransform.PalindromeTransformMain();
             PatternMatch.PatternMatchMain();
             MaxPalindromeInTable.MaxPalindromeInTableMain();
@@ -105,17 +105,19 @@ namespace ProblemSolving
             oddNumbers.Add(1);
             oddNumbers.Add(2);
             int[][] array = new int[7][];
-            array[0] = new int[] { 0,0,0,0,0,0,1,1,1,0 };
-            array[1] = new int[] { 0,0,0,0,0,0,0,0,0,0 };
-            array[2] = new int[] { 1,0,0,0,0,1,0,0,0,0 };
-            array[3] = new int[] { 1,0,0,0,0,0,0,1,1,0 };
-            array[4] = new int[] { 1,0,0,0,0,0,0,1,1,0 };
-            array[5] = new int[] { 1,0,0,0,1,0,0,0,0,0 };
-            array[6] = new int[] { 0,0,0,1,0,0,0,0,0,1 };
+            array[0] = new int[] { 0, 0, 0, 0, 0, 0, 1, 1, 1, 0 };
+            array[1] = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            array[2] = new int[] { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0 };
+            array[3] = new int[] { 1, 0, 0, 0, 0, 0, 0, 1, 1, 0 };
+            array[4] = new int[] { 1, 0, 0, 0, 0, 0, 0, 1, 1, 0 };
+            array[5] = new int[] { 1, 0, 0, 0, 1, 0, 0, 0, 0, 0 };
+            array[6] = new int[] { 0, 0, 0, 1, 0, 0, 0, 0, 0, 1 };
 
             GroupAndWall.GetNumberOfGroups(array);
             Console.Read();
 
         }
+
+
     }
 }

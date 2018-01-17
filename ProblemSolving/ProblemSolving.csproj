@@ -47,8 +47,10 @@
     <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />
+    <Compile Include="Arrays and Strings\MaxSubArrayWithGivenSum.cs" />
     <Compile Include="Arrays and Strings\MinSubArrayWithValue.cs" />
     <Compile Include="Arrays and Strings\ReverseVowelsInString.cs" />
+    <Compile Include="Arrays and Strings\SubsetSumInArray.cs" />
     <Compile Include="Arrays and Strings\SumDigitsToASingleDigit.cs" />
     <Compile Include="Arrays and Strings\ThreeWayPartitionInArray.cs" />
     <Compile Include="Arrays and Strings\FindCommonIn3List.cs" />
@@ -60,7 +62,8 @@
     <Compile Include="Arrays and Strings\StringCompression.cs" />
     <Compile Include="Arrays and Strings\StringRotation.cs" />
     <Compile Include="Arrays and Strings\ZeroMatrix.cs" />
-    <Compile Include="BT_Print\Print_Level _Order.cs" />
+    <Compile Include="Graphs\BST_GetArrayFromTree.cs" />
+    <Compile Include="Graphs\BT_Print\Print_Level _Order.cs" />
     <Compile Include="DAA\ArrayValueAndIndexMatch.cs" />
     <Compile Include="DAA\PalindromeTransformSolution.cs" />
     <Compile Include="DAA\CountLargestGroup.cs" />
@@ -79,11 +82,20 @@
     <Compile Include="DP\MaxPalindromeInTable.cs" />
     <Compile Include="DP\TwoRobots.cs" />
     <Compile Include="FizzBuzz\FizzBuzz.cs" />
+    <Compile Include="Graphs\BuildOrder.cs" />
+    <Compile Include="Graphs\CheckBalancedTree.cs" />
+    <Compile Include="Graphs\CheckBinarySearchTree.cs" />
     <Compile Include="Graphs\CountCityAndRoad.cs" />
     <Compile Include="Graphs\CountSubStringInGraph.cs" />
+    <Compile Include="Graphs\FirstCommonAncestor.cs" />
+    <Compile Include="Graphs\Graph.cs" />
+    <Compile Include="Graphs\InOrderSuccessorInTree.cs" />
+    <Compile Include="Graphs\ListOfDepthsInTree.cs" />
+    <Compile Include="Graphs\RouteBetweenTwoNodes.cs" />
     <Compile Include="Graphs\Tree.cs" />
     <Compile Include="Graphs\MinimalBinaryTree.cs" />
-    <Compile Include="Interview\AmazonInterview.cs" />
+    <Compile Include="Interview\Amazon\AmazonInterview.cs" />
+    <Compile Include="Interview\Bluewolf\Bluewolf.cs" />
     <Compile Include="LinkedList\KthToLast.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Pratition.cs" />
@@ -95,6 +107,7 @@
     <Compile Include="ProblemSolving.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays and Strings\StringPermutation.cs" />
+    <Compile Include="Recurssion\GetAllCombinationOfArray.cs" />
     <Compile Include="Sytax.cs" />
     <Compile Include="TopologicalSort\TopologicalSort.cs" />
     <Compile Include="Arrays and Strings\UniqueCharInString.cs" />
@@ -104,7 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BT_Print\Data\WhatsApp Image 2016-11-06 at 1.57.20 PM.jpeg" />
+    <Content Include="Graphs\BT_Print\Data\WhatsApp Image 2016-11-06 at 1.57.20 PM.jpeg" />
     <Compile Include="Graphs\AllPathsInGraph.cs" />
     <Content Include="LongestValidParenthesis\Data\WhatsApp Image 2016-11-08 at 2.25.40 PM.jpeg" />
     <Content Include="Notes\PatternMatchingAlgorithms.txt" />
@@ -114,7 +127,8 @@
     <Content Include="TopologicalSort\Data\TopologicalSort_DAG.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interview\Amazon\" />
+    <Folder Include="Interview\Amazon\Questions\" />
+    <Folder Include="Interview\Bluewolf\Questions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

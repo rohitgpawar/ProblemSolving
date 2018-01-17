@@ -65,6 +65,7 @@ using System.Collections.Generic;
         HashSet<int> numbers = new HashSet<int>(evenNumbers);
         numbers.UnionWith(oddNumbers);
         evenNumbers.Contains(2);
+        evenNumbers.Count;
 
      */
 /*

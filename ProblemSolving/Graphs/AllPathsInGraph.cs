@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ProblemSolving;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 /*
  Bonnie and Clyde have decided to meet at a restaurant to have Sushi. The city is given in the form of an undirected graph with n nodes (numbered from 1..n) and m edges (without any parallel edges or self loops). Bonnie's house is located at node u and Clyde's house is located at node v. The famous restaurant Sushi Grand is located at node w.
@@ -29,98 +29,7 @@ YES
 
 
 	 */
-public class Graph {
-	public int verticesCount;
-    List<int>[] graphEdges;//= new List<int>[verticesCount];
-	
-	public Graph(int V)
-	{
-		verticesCount = V;
-        graphEdges = new List<int>[verticesCount];
-        for (int i = 0; i < V; i++)
-        {
-            graphEdges[i] = new List<int>();
-        }
-    }
 
-	public void addEdge(int s, int dest)
-	{
-		graphEdges[s-1].Add(dest);
-        graphEdges[dest - 1].Add(s);
-    }
-
-    public bool CanMeet(int u, int v, int w)
-    {
-        bool canMeet = false;
-        try
-        {
-            List<HashSet<int>> uwPaths = GetAllPaths(u, w);
-            List<HashSet<int>> vwPaths = GetAllPaths(v, w);
-            for (int i = 0; i < uwPaths.Count; i++)
-            {
-                for (int j = 0; j < vwPaths.Count; j++)
-                {
-                    if (uwPaths[i].Intersect(vwPaths[j]).Count() == 1)
-                    {
-                        canMeet = true;
-                        break;
-                    }
-                }
-                if (canMeet)
-                    break;
-            }
-
-        }
-        catch (Exception ex)
-        {
-
-        }
-        return canMeet;
-    }
-	
-
-    public List<HashSet<int>> GetAllPaths(int s, int d)
-    {
-        List<HashSet<int>> allPathsToDestination = new List<HashSet<int>>();
-        int[] paths = new int[verticesCount];
-        bool[] visited = new bool[verticesCount];
-        int pathIndex = 0;
-        for (int i = 0; i < verticesCount; i++)
-        {
-            visited[i] = false;
-        }
-        FindAllPaths(s, d, visited, pathIndex, paths, allPathsToDestination);
-        return allPathsToDestination;
-    }
-
-    void FindAllPaths(int s, int d, bool[] visited, int pathIndex, int[] paths, List<HashSet<int>> allPathsToDestination)
-    {
-        if (visited[s - 1])
-            return;
-        visited[s-1] = true;
-        paths[pathIndex] = s;
-        pathIndex++;
-        if (s == d)
-        {
-            HashSet < int > path = new HashSet<int>(paths);
-            path.Remove(0);
-            allPathsToDestination.Add(path);
-        }
-        else
-        {
-            foreach (int i in graphEdges[s-1])
-            {
-                if (!visited[i-1])
-                    FindAllPaths(i, d, visited, pathIndex, paths, allPathsToDestination);
-            }
-        }
-        
-        pathIndex--;
-		if(pathIndex >= 0)
-			paths[pathIndex] = 0;
-        visited[s-1] = false;
-    }
-}
 
 
 
