@@ -7,8 +7,9 @@ namespace ProblemSolving.Interview
         public static void BluewolfMain()
         {
             string output = Q1_FindFirstNonRepeatingCharacter("mnonmpsms");
+            int complement = Q2_NumberComplement(50);
+            complement = Q2_NumberComplement_Approach2(50);
             Q3_CustomSortedArray(new int[5] { 8, 5, 11, 4, 6 });
-            Q2_NumberComplement(100);
         }
 
         static string Q1_FindFirstNonRepeatingCharacter(string s)
@@ -55,6 +56,25 @@ namespace ProblemSolving.Interview
             }
 
             return Convert.ToInt32(temp, 2);
+
+        }
+
+        static int Q2_NumberComplement_Approach2(int n)
+        {
+            int complement = 0;
+            int i = 0;
+            while (n > 0)
+            {
+                int rem = n % 2;
+                if (rem == 0)
+                {
+                    complement += (int)Math.Pow(2, i);
+                }
+                n = n / 2;
+                i++;
+            }
+
+            return complement;
 
         }
 

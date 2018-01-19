@@ -10,7 +10,7 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
-
+            Interview.Bluewolf.BluewolfMain();
             GetAllCombinationOfArray.GetAllCombinationOfArrayMain();
             BST_GetArrayFromTree.BST_GetArrayFromTreeMain();
             FirstCommonAncestor.FirstCommonAncestorMain();
