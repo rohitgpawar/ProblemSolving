@@ -19,6 +19,10 @@ namespace ProblemSolving
         public TreeNode() { }
         public TreeNode(int x) { val = x; }
 
+        /// <summary>
+        /// Add new node to the extreme left of the tree
+        /// </summary>
+        /// <param name="node"></param>
         public void AddLeft(TreeNode node)
         {
 
@@ -96,6 +100,28 @@ namespace ProblemSolving
             return root;
         }
 
+        /// <summary>
+        /// Clone a Tree from given node to the destination node
+        /// </summary>
+        /// <param name="node"> Source node</param>
+        /// <param name="newNode">Destination node</param>
+        public static void CloneTreeFromNode(TreeNode node, TreeNode newNode)
+        {
+            if(newNode.val == 0)
+            {
+                newNode.val = node.val;
+            }
+            if(node.left != null )
+            {
+                newNode.left = new TreeNode(node.left.val);
+                CloneTreeFromNode(node.left, newNode.left);
+            }
+            if (node.right!= null)
+            {
+                newNode.right = new TreeNode(node.right.val);
+                CloneTreeFromNode(node.right, newNode.right);
+            }
+        }
         public void AddNodeBinarySearch(TreeNode node)
         {
             if(val >= node.val)

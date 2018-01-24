@@ -46,6 +46,8 @@
     <Compile Include="ArrayRotatedMin\ArrayRotatedMin.cs" />
     <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
+    <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
+    <Compile Include="Company\Amazon\IntegerToRoman.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />
     <Compile Include="Arrays and Strings\MaxSubArrayWithGivenSum.cs" />
     <Compile Include="Arrays and Strings\MinSubArrayWithValue.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Graphs\BuildOrder.cs" />
     <Compile Include="Graphs\CheckBalancedTree.cs" />
     <Compile Include="Graphs\CheckBinarySearchTree.cs" />
+    <Compile Include="Graphs\CheckSubtree.cs" />
     <Compile Include="Graphs\CountCityAndRoad.cs" />
     <Compile Include="Graphs\CountSubStringInGraph.cs" />
     <Compile Include="Graphs\FirstCommonAncestor.cs" />

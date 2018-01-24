@@ -10,6 +10,9 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            EquilibriumInArray.EquilibriumInArrayMain();
+            IntegerToRoman.IntegerToRomanMain();
+            CheckSubtree.CheckSubtreeMain();
             Interview.Bluewolf.BluewolfMain();
             GetAllCombinationOfArray.GetAllCombinationOfArrayMain();
             BST_GetArrayFromTree.BST_GetArrayFromTreeMain();
