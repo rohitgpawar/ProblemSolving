@@ -98,6 +98,7 @@
     <Compile Include="Graphs\RouteBetweenTwoNodes.cs" />
     <Compile Include="Graphs\Tree.cs" />
     <Compile Include="Graphs\MinimalBinaryTree.cs" />
+    <Compile Include="Graphs\TreePathsWithSum.cs" />
     <Compile Include="Interview\Amazon\AmazonInterview.cs" />
     <Compile Include="Interview\Bluewolf\Bluewolf.cs" />
     <Compile Include="LinkedList\KthToLast.cs" />

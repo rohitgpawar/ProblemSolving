@@ -10,6 +10,7 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            TreePathsWithSum.TreePathsWithSumMain();
             RandomNode.RandomNodeMain();
             EquilibriumInArray.EquilibriumInArrayMain();
             IntegerToRoman.IntegerToRomanMain();
