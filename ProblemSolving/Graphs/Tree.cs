@@ -10,6 +10,7 @@ namespace ProblemSolving
         public int val;
         public TreeNode left;
         public TreeNode right;
+        public int childCount;
 
         /// <summary>
         /// Only used for InOrderSuccessor Problem. Never has value
@@ -17,7 +18,7 @@ namespace ProblemSolving
         public TreeNode parent;
 
         public TreeNode() { }
-        public TreeNode(int x) { val = x; }
+        public TreeNode(int x) { val = x; childCount = 1; }
 
         /// <summary>
         /// Add new node to the extreme left of the tree
@@ -25,7 +26,7 @@ namespace ProblemSolving
         /// <param name="node"></param>
         public void AddLeft(TreeNode node)
         {
-
+            //childCount++;
             if (left == null)
             {
                 left = node;
@@ -83,15 +84,18 @@ namespace ProblemSolving
             {
                 totalNodes += (int)Math.Pow(2, i);
             }
-            while(countNodes < totalNodes && nodes.Count>0)
+            int currentChildCount = totalNodes-1;
+            while (countNodes < totalNodes && nodes.Count>0)
             {
                 TreeNode currentNode = nodes.Dequeue();
+                currentNode.childCount = currentChildCount+1;
                 currentNode.AddLeft(new TreeNode(++countNodes));
                 currentNode.AddRight(new TreeNode(++countNodes));
                 nextNodes.Enqueue(currentNode.left);
                 nextNodes.Enqueue(currentNode.right);
                 if(nodes.Count == 0)
                 {
+                    currentChildCount = (totalNodes - countNodes) / nextNodes.Count;
                     nodes = new Queue<TreeNode>(nextNodes);
                     nextNodes = new Queue<TreeNode>();
                 }

@@ -94,6 +94,7 @@
     <Compile Include="Graphs\Graph.cs" />
     <Compile Include="Graphs\InOrderSuccessorInTree.cs" />
     <Compile Include="Graphs\ListOfDepthsInTree.cs" />
+    <Compile Include="Graphs\RandomNode.cs" />
     <Compile Include="Graphs\RouteBetweenTwoNodes.cs" />
     <Compile Include="Graphs\Tree.cs" />
     <Compile Include="Graphs\MinimalBinaryTree.cs" />

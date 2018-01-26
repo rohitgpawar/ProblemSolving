@@ -10,6 +10,7 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            RandomNode.RandomNodeMain();
             EquilibriumInArray.EquilibriumInArrayMain();
             IntegerToRoman.IntegerToRomanMain();
             CheckSubtree.CheckSubtreeMain();
