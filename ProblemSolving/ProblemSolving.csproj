@@ -46,6 +46,7 @@
     <Compile Include="ArrayRotatedMin\ArrayRotatedMin.cs" />
     <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
+    <Compile Include="Company\Amazon\BoundryTraversalOfBT.cs" />
     <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
     <Compile Include="Company\Amazon\IntegerToRoman.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />

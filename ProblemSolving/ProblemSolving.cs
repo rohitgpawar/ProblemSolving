@@ -10,6 +10,7 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            BoundryTraversalOfBT.BoundryTraversalOfBTMain();
             TreePathsWithSum.TreePathsWithSumMain();
             RandomNode.RandomNodeMain();
             EquilibriumInArray.EquilibriumInArrayMain();

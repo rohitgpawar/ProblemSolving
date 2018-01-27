@@ -26,6 +26,13 @@
 
         }
 
+        /// <summary>
+        /// Check if current node is first Ancestor. Else find and rescure to the covering subtree.
+        /// </summary>
+        /// <param name="node"></param>
+        /// <param name="p"></param>
+        /// <param name="q"></param>
+        /// <returns></returns>
         public static TreeNode Helper(TreeNode node, TreeNode p, TreeNode q)
         {
             if (node == p || node == q || node == null)
@@ -39,6 +46,12 @@
 
         }
 
+        /// <summary>
+        /// Check if root node contains node 'p' in its decendents
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static bool Covers(TreeNode root, TreeNode p)
         {
             if (root == null)
