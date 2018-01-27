@@ -48,6 +48,7 @@
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
     <Compile Include="Company\Amazon\BoundryTraversalOfBT.cs" />
     <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
+    <Compile Include="Company\Amazon\FindMissingNumber.cs" />
     <Compile Include="Company\Amazon\IntegerToRoman.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />
     <Compile Include="Arrays and Strings\MaxSubArrayWithGivenSum.cs" />
@@ -65,6 +66,9 @@
     <Compile Include="Arrays and Strings\StringCompression.cs" />
     <Compile Include="Arrays and Strings\StringRotation.cs" />
     <Compile Include="Arrays and Strings\ZeroMatrix.cs" />
+    <Compile Include="Company\Amazon\MaxSumSubArray.cs" />
+    <Compile Include="Company\Amazon\PrintAllNodesAtDistanceK.cs" />
+    <Compile Include="Company\Amazon\StockBuySellMaxProfit.cs" />
     <Compile Include="Graphs\BST_GetArrayFromTree.cs" />
     <Compile Include="Graphs\BT_Print\Print_Level _Order.cs" />
     <Compile Include="DAA\ArrayValueAndIndexMatch.cs" />

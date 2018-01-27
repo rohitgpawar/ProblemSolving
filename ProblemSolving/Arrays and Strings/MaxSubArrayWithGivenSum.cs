@@ -8,8 +8,6 @@ namespace ProblemSolving
     /// </summary>
     public class MaxSubArrayWithGivenSum
     {
-        public static object HashTable { get; private set; }
-
         public static void MaxSubArrayWithGivenSumMain()
         {
             int[] arraySum = new int[] { 6, 3, -1, -3, 4, -2, 2, 4, 6, -12, -7 };

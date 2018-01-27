@@ -10,6 +10,11 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            PrintAllNodesAtDistanceK.PrintAllNodesAtDistanceKMain();
+            FindMissingNumber.FindMissingNumberMain();
+            MaxSumSubArray.MaxSumSubArrayMain();
+            MaxSubArrayWithGivenSum.MaxSubArrayWithGivenSumMain();
+            StockBuySellMaxProfit.StockBuySellMaxProfitMain();
             BoundryTraversalOfBT.BoundryTraversalOfBTMain();
             TreePathsWithSum.TreePathsWithSumMain();
             RandomNode.RandomNodeMain();
