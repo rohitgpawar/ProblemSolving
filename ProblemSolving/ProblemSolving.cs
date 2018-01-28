@@ -10,6 +10,10 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            DistributeChocolateAmongKStudents.DistributeChocolateAmongKStudentsMain();
+            CheckContiguousIntergers.CheckContiguousIntergersMain();
+            ClosestNumberFromList.ClosestNumberFromListMain();
+            Sorting.MergeSort.ApplyMergeSort(new int[5] { 5, 4, 3, 2, 1 }, 0, 4);
             PrintAllNodesAtDistanceK.PrintAllNodesAtDistanceKMain();
             FindMissingNumber.FindMissingNumberMain();
             MaxSumSubArray.MaxSumSubArrayMain();

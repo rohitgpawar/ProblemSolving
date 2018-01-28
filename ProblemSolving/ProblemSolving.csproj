@@ -47,6 +47,9 @@
     <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
     <Compile Include="Company\Amazon\BoundryTraversalOfBT.cs" />
+    <Compile Include="Company\Amazon\CheckContiguousIntergers.cs" />
+    <Compile Include="Company\Amazon\ClosestNumberFromList.cs" />
+    <Compile Include="Company\Amazon\DistributeChocolateAmongKStudents.cs" />
     <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
     <Compile Include="Company\Amazon\FindMissingNumber.cs" />
     <Compile Include="Company\Amazon\IntegerToRoman.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays and Strings\StringPermutation.cs" />
     <Compile Include="Recurssion\GetAllCombinationOfArray.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Sytax.cs" />
     <Compile Include="TopologicalSort\TopologicalSort.cs" />
     <Compile Include="Arrays and Strings\UniqueCharInString.cs" />
