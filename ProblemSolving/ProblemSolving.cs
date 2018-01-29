@@ -10,6 +10,9 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            CloneLinkedListWithNextAndRandomPointer.CloneLinkedListWithNextAndRandomPointerMain();
+            ReArrangeCircularTable.ReArrangeCircularTableMain();
+            DistanceBetweenTwoNodes.DistanceBetweenTwoNodesMain();
             DistributeChocolateAmongKStudents.DistributeChocolateAmongKStudentsMain();
             CheckContiguousIntergers.CheckContiguousIntergersMain();
             ClosestNumberFromList.ClosestNumberFromListMain();
