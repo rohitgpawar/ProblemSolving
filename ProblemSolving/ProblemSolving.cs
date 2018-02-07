@@ -10,6 +10,9 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            IslandProblem.IslandProblemMain();
+            AllCombinationsOfArrayElements.AllCombinationsOfArrayElementsMain();
+            GroupByAnagrams.GroupByAnagramsMain();
             CloneLinkedListWithNextAndRandomPointer.CloneLinkedListWithNextAndRandomPointerMain();
             ReArrangeCircularTable.ReArrangeCircularTableMain();
             DistanceBetweenTwoNodes.DistanceBetweenTwoNodesMain();

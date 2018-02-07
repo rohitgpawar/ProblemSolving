@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 /*
  *
@@ -206,7 +207,109 @@ namespace ProblemSolving
             word[0] = 'c';
             word.ToString();
             tmp.ToCharArray();
+
+            List<TreeNode> tr = new List<TreeNode>();
+            var dict=tr.ToDictionary(o => o.childCount);
         }
         
+    }
+
+    class OOPConcepts
+    {
+
+        //FACTORY PATTERN AND HOW TO USE INTERFACE AS CONTRACT
+        #region FACTORY PATTERN
+        /// <summary>
+        /// Contract to be shared.
+        /// </summary>
+        interface IEmployee
+        {
+            void saveEmployee(string name, int id);
+        }
+
+        /// <summary>
+        /// May be DAL class
+        /// </summary>
+        class Employee : IEmployee
+        {
+            public void saveEmployee(string name, int id)
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+
+        class EmployeeFactory
+        {
+            private Employee _emp;
+            public IEmployee getEmployee()
+            {
+                if (_emp == null)
+                {
+                    return new Employee();
+                }
+                else
+                {
+                    return _emp;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Customer of Employee
+        /// </summary>
+        class Profile
+        {
+            IEmployee employee;
+
+            public Profile(EmployeeFactory efactory)
+            {
+                employee = efactory.getEmployee();
+            }
+            void savePerson()
+            {
+                employee.saveEmployee("", 1);
+            }
+        }
+        #endregion
+
+        //PARENT CHILD REFERENCES
+        #region PARENT CHILD
+        class Parent
+        {
+            public void ParentMethod1()
+            {
+
+            }
+
+        }
+
+        class Child : Parent
+        {
+            public void ChildMethod1()
+            {
+                
+            }
+        }
+
+        class OtherMain
+        {
+            public static void Start()
+            {
+                //Parent can point to child
+                Parent parentRef = new Child();
+                parentRef.ParentMethod1();//Only can access things which are present on reference.
+
+                //Not Possible. Child cannot point to Parent
+                //Child childRef = new Parent();
+
+                //Child Object can access both methods
+                Child childobj = new Child();
+                childobj.ParentMethod1(); // Parent Method
+                childobj.ChildMethod1(); // Child Method
+            }
+        }
+
+        #endregion
     }
 }

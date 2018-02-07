@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayRotatedMin\ArrayRotatedMin.cs" />
+    <Compile Include="Arrays and Strings\AllCombinationsOfArrayElements.cs" />
     <Compile Include="Arrays and Strings\FindNearestSmallerNumberToRight_Array.cs" />
     <Compile Include="Arrays and Strings\GroupAndWall.cs" />
     <Compile Include="Company\Amazon\BoundryTraversalOfBT.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Company\Amazon\DistributeChocolateAmongKStudents.cs" />
     <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
     <Compile Include="Company\Amazon\FindMissingNumber.cs" />
+    <Compile Include="Company\Amazon\GroupByAnagrams.cs" />
     <Compile Include="Company\Amazon\IntegerToRoman.cs" />
     <Compile Include="Arrays and Strings\IslandProblem.cs" />
     <Compile Include="Arrays and Strings\MaxSubArrayWithGivenSum.cs" />
@@ -129,6 +131,7 @@
     <Compile Include="TopologicalSort\TopologicalSort.cs" />
     <Compile Include="Arrays and Strings\UniqueCharInString.cs" />
     <Compile Include="Arrays and Strings\URLify.cs" />
+    <Compile Include="Trie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
