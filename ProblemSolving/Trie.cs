@@ -13,12 +13,14 @@ namespace ProblemSolving
     public class TrieNode
     {
         public bool isEnd;
+        public int endChild;
         public List<int> Head;//List of integers to store indices for a perticular problem.
         public TrieNode[] childrens = new TrieNode[26];// Children to store 26 characters 'a' to 'z'
 
         public TrieNode()
         {
             isEnd = false;
+            endChild = -1;
             Head = new List<int>();
             for(int i=0;i<26;i++)
             {
@@ -36,7 +38,7 @@ namespace ProblemSolving
                 node = new TrieNode();
             }
 
-            if(position < word.Length- 1)
+            if(position < word.Length)
             {//If note last position
                  
                 int charPos = word[position] - 'a';
@@ -56,5 +58,6 @@ namespace ProblemSolving
             }
             return node;
         }
+
     }
 }

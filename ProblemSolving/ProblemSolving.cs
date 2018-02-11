@@ -10,9 +10,20 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            LongestSubstringPalindrome.LongestSubstringPalindromeMain();
+            LongestSubsequencePalindrome.LongestSubsequencePalindromeMain();
+            StringMatchingWithWildCard.StringMatchingWithWildCardMain();
+            ConvertBinaryTreeToSumTree.ConvertBinaryTreeToSumTreeMain();
+            CheckTwoExpressionsWithBrackets.CheckTwoExpressionsWithBracketsMain();
+            MakeArrayPalindromeInMinMerge.MakeArrayPalindromeInMinMergeMain();
+            MaxPathSumInBinaryTree.MaxPathSumInBinaryTreeMain();
+            GetAllPathsInGridWithObstacles.GetAllPathsInGridWithObstaclesMain();
+            PrintAllPathsFromTopLeftToBottomRight.PrintAllPathsFromTopLeftToBottomRightMain();
+            GroupByAnagrams.GroupByAnagramsMain();
+
+            PalindromePairInArray.PalindromePairInArrayMain();
             IslandProblem.IslandProblemMain();
             AllCombinationsOfArrayElements.AllCombinationsOfArrayElementsMain();
-            GroupByAnagrams.GroupByAnagramsMain();
             CloneLinkedListWithNextAndRandomPointer.CloneLinkedListWithNextAndRandomPointerMain();
             ReArrangeCircularTable.ReArrangeCircularTableMain();
             DistanceBetweenTwoNodes.DistanceBetweenTwoNodesMain();

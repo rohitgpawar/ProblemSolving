@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 /*
- Given a directed graph you need to complete the function topoSort which returns an array having the topologically sorted elements of the array and takes two arguments . The first argument is the Graph graph represented as adjacency list and the second is the number of vertices V 
+ Given a directed graph you need to complete the function topoSort which returns an array having the topologically sorted elements of the array 
+ and takes two arguments . The first argument is the Graph graph represented as adjacency list and the second is the number of vertices V 
      */
+     // OUTDATED WATCH FOR BuildOrder.cs
 namespace ProblemSolving
 {
     public class TopologicalSort

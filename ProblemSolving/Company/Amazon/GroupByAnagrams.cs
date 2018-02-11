@@ -20,12 +20,12 @@ namespace ProblemSolving
         public static void GroupByAnagramsMain()
         {
             //GetGroupByAnagram(new List<string>() { "cat", "dog", "tac", "god", "act" });
-            GetGroupByAnagramTrieApproach(new List<string>() { "cat", "dog", "tac", "god", "act" });
+            GetGroupByAnagramTrieApproach(new List<string>() { "abc", "cat", "abd", "god", "act" });
 
         }
 
         /// <summary>
-        /// Print Anagrams by group. Use Hashtable but it can have collisions.
+        /// } Anagrams by group. Use Hashtable but it can have collisions.
         /// </summary>
         /// <param name="words"></param>
         public static void GetGroupByAnagram(List<string> words)
@@ -106,6 +106,7 @@ namespace ProblemSolving
                 {//Indices of all analogs
                     Console.Write(words[index] + " ");
                 }
+                Console.WriteLine();
                 return;
             }
             else
