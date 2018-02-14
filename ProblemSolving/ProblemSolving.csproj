@@ -56,6 +56,7 @@
     <Compile Include="Company\Amazon\DistanceBetweenTwoNodes.cs" />
     <Compile Include="Company\Amazon\DistributeChocolateAmongKStudents.cs" />
     <Compile Include="Company\Amazon\EquilibriumInArray.cs" />
+    <Compile Include="Company\Amazon\FindMedianInMatrix.cs" />
     <Compile Include="Company\Amazon\FindMissingNumber.cs" />
     <Compile Include="Company\Amazon\GetAllPathsInGridWithObstacles.cs" />
     <Compile Include="Company\Amazon\GroupByAnagrams.cs" />
@@ -79,12 +80,15 @@
     <Compile Include="Company\Amazon\LongestSubsequencePalindrome.cs" />
     <Compile Include="Company\Amazon\LongestSubstringPalindrome.cs" />
     <Compile Include="Company\Amazon\MakeArrayPalindromeInMinMerge.cs" />
+    <Compile Include="Company\Amazon\MaxHeap.cs" />
     <Compile Include="Company\Amazon\MaxPathSumInBinaryTree.cs" />
     <Compile Include="Company\Amazon\MaxSumSubArray.cs" />
+    <Compile Include="Company\Amazon\MergeTwoLinkedList.cs" />
     <Compile Include="Company\Amazon\PalindromePairInArray.cs" />
     <Compile Include="Company\Amazon\PrintAllNodesAtDistanceK.cs" />
     <Compile Include="Company\Amazon\PrintAllPathsFromTopLeftToBottomRight.cs" />
     <Compile Include="Company\Amazon\ReArrangeCircularTable.cs" />
+    <Compile Include="Company\Amazon\SlidingWindowMaxAndMin.cs" />
     <Compile Include="Company\Amazon\StockBuySellMaxProfit.cs" />
     <Compile Include="Company\Amazon\StringMatchingWithWildCard.cs" />
     <Compile Include="Graphs\BST_GetArrayFromTree.cs" />

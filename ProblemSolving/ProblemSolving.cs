@@ -10,6 +10,9 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            FindMedianInMatrix.FindMedianInMatrixMain();
+            MergeTwoLinkedList.MergeTwoLinkedListMain();
+            SlidingWindowMaxAndMin.SlidingWindowMaxAndMinMain();
             LongestSubstringPalindrome.LongestSubstringPalindromeMain();
             LongestSubsequencePalindrome.LongestSubsequencePalindromeMain();
             StringMatchingWithWildCard.StringMatchingWithWildCardMain();

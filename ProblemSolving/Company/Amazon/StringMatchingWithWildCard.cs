@@ -92,15 +92,15 @@ namespace ProblemSolving
 
             for (int textCounter = 1; textCounter <= text.Length; textCounter++)
             {//Loop on all char of text
-                for (int patternCounter=1; patternCounter<= pattern.Length;patternCounter++)
+                for (int patternCounter = 1; patternCounter <= pattern.Length; patternCounter++)
                 {//Loop on all char in pattern
-                    if(pattern[patternCounter-1].Equals('*'))
+                    if (pattern[patternCounter - 1].Equals('*'))
                     {//Pattern is * so we can have 2 cases 
                         //1. consider this pattern char as null and move to next
                         //2. consider this pattern char matches with text char and move char next
                         outputDP[textCounter][patternCounter] = outputDP[textCounter][patternCounter - 1] || outputDP[textCounter - 1][patternCounter];
                     }
-                    else if(pattern[patternCounter-1].Equals('?') || pattern[patternCounter-1].Equals(text[textCounter-1]))
+                    else if (pattern[patternCounter - 1].Equals('?') || pattern[patternCounter - 1].Equals(text[textCounter - 1]))
                     {// IF ? in pattern or match in pattern and string move both forward
                         outputDP[textCounter][patternCounter] = outputDP[textCounter - 1][patternCounter - 1];
                     }
