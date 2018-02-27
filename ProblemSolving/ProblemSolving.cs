@@ -10,6 +10,7 @@ namespace ProblemSolving
         //static 
         static void Main(string[] args)
         {
+            WordLadder.WordLadderMain();
             FindMedianInMatrix.FindMedianInMatrixMain();
             MergeTwoLinkedList.MergeTwoLinkedListMain();
             SlidingWindowMaxAndMin.SlidingWindowMaxAndMinMain();

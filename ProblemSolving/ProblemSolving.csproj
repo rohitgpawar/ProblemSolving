@@ -91,6 +91,7 @@
     <Compile Include="Company\Amazon\SlidingWindowMaxAndMin.cs" />
     <Compile Include="Company\Amazon\StockBuySellMaxProfit.cs" />
     <Compile Include="Company\Amazon\StringMatchingWithWildCard.cs" />
+    <Compile Include="Company\Amazon\WordLadder.cs" />
     <Compile Include="Graphs\BST_GetArrayFromTree.cs" />
     <Compile Include="Graphs\BT_Print\Print_Level _Order.cs" />
     <Compile Include="DAA\ArrayValueAndIndexMatch.cs" />
